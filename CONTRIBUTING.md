@@ -59,6 +59,6 @@ Contributions are more than welcome!
 
 Thanks! :sweat_smile:
 
-[1]: https://github.com/IonicaBizau/w-package-json/issues
+[1]: https://github.com/IonicaBizau/r-package-json/issues
 
 [2]: https://github.com/IonicaBizau/code-style
