@@ -1,7 +1,7 @@
 {
   "name": "r-package-json",
   "version": "1.0.0",
-  "description": "Write package.json files.",
+  "description": "Read package.json files.",
   "main": "index.js",
   "directories": {
     "example": "example"
