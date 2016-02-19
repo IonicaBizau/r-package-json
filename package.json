@@ -1,0 +1,33 @@
+{
+  "name": "w-package-json",
+  "version": "1.0.0",
+  "description": "Write package.json files.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "package-json-path": "^1.0.0",
+    "r-json": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/w-package-json.git"
+  },
+  "keywords": [
+    "package",
+    "npm",
+    "write",
+    "json"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/w-package-json/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/w-package-json#readme"
+}
