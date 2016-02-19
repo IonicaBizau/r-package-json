@@ -2,6 +2,12 @@
 
 > Read package.json files.
 
+## Installation
+
+```sh
+$ npm i --save r-package-json
+```
+
 ## Example
 
 ```js
@@ -18,8 +24,23 @@ readPack(__dirname + "/..", function (err, pack) {
 });
 ```
 
+## Documentation
+
+### `readPackageJson(dir, callback)`
+Reads the `package.json` content from the provided directory.
+
+#### Params
+- **String** `dir`: The path to the directory containing the `package.json` file.
+- **Function** `callback`: The callback function.
+
+#### Return
+- **Object** The `package.json` content (if a `callback` function was not provided).
+
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
+
+## Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
 
 ## Related
 
