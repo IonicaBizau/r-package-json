@@ -1,14 +1,18 @@
+
 # r-package-json [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/r-package-json.svg)](https://www.npmjs.com/package/r-package-json) [![Downloads](https://img.shields.io/npm/dt/r-package-json.svg)](https://www.npmjs.com/package/r-package-json) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Read package.json files.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save r-package-json
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const readPack = require("r-package-json");
@@ -24,7 +28,8 @@ readPack(__dirname + "/..", function (err, pack) {
 });
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `readPackageJson(dir, callback)`
 Reads the `package.json` content from the provided directory.
@@ -36,17 +41,23 @@ Reads the `package.json` content from the provided directory.
 #### Return
 - **Object** The `package.json` content (if a `callback` function was not provided).
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## Related
+
+ - [`git-package-json`](https://github.com/IonicaBizau/git-package-json#readme)—Get the package.json contents from git repositories.
+## :sparkles: Related
 
  - [`w-package-json`](https://github.com/IonicaBizau/w-package-json)–Write package.json files.
 
-## License
+
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
