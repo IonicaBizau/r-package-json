@@ -1,6 +1,6 @@
 {
   "name": "r-package-json",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Read package.json files.",
   "main": "lib/index.js",
   "directories": {
@@ -39,6 +39,7 @@
     "bin/",
     "app/",
     "lib/",
+    "build/",
     "dist/",
     "src/",
     "resources/",
