@@ -31,11 +31,9 @@
   },
   "homepage": "https://github.com/IonicaBizau/r-package-json#readme",
   "blah": {
-    "related": {
-      "ul": [
-        "[`w-package-json`](https://github.com/IonicaBizau/w-package-json)–Write package.json files."
-      ]
-    }
+    "related": [
+      "w-package-json"
+    ]
   },
   "files": [
     "bin/",
