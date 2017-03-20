@@ -1,6 +1,6 @@
 {
   "name": "r-package-json",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Read package.json files.",
   "main": "lib/index.js",
   "directories": {
@@ -24,7 +24,7 @@
     "write",
     "json"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/r-package-json/issues"
@@ -39,12 +39,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
